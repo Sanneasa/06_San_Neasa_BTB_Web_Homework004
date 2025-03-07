@@ -66,7 +66,7 @@ export default function AddNewProjectComponent({
 
   return (
     <>
-      <div className="flex flex-col gap-6 overflow-auto h-[80vh]">
+      <div>
         <div className="flex justify-between items-center">
           <div></div>
           <div>
@@ -236,7 +236,7 @@ export default function AddNewProjectComponent({
         </div>
 
         {/* Project Cards */}
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-3 gap-4 overflow-auto h-[80vh]">
           {filteredAssignments.length > 0 ? (
             filteredAssignments.map((item, index) => (
               <CardComponent

@@ -19,3 +19,7 @@
   /* config custom font */
   --font-rubik: "Rubik", "sans-serif";
 }
+
+body{
+  overflow: hidden;
+}
